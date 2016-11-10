@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_simple_calculator"
+            android:icon="@drawable/simple"
+            android:title="Simple" />
+
+        <item android:title="Zakat">
+            <menu>
+                <item
+                    android:id="@+id/nav_zakat_fitra"
+                    android:icon="@drawable/zakat"
+                    android:title="Fitra" />
+                <item
+                    android:id="@+id/nav_zakat_pekerjaan"
+                    android:icon="@drawable/zakat"
+                    android:title="Pekerjaan" />
+                <item
+                    android:id="@+id/nav_zakat_harta"
+                    android:icon="@drawable/zakat"
+                    android:title="Harta" />
+            </menu>
+        </item>
+
+        <item android:title="Computer">
+            <menu>
+                <item
+                    android:id="@+id/nav_network_calculator"
+                    android:icon="@drawable/net"
+                    android:title="Network" />
+            </menu>
+        </item>
+
+        <item android:title="Exit">
+            <menu>
+                <item
+                    android:id="@+id/nav_exit"
+                    android:icon="@drawable/exit"
+                    android:title="Exit" />
+            </menu>
+        </item>
+    </group>
+
+
+</menu>
